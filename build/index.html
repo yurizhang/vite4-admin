@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" />
+    <meta property="og:site_name" content="Trend Micro Vision One™" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Trend Micro Vision One™" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="shortcut icon" href="./logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trend Micro Vision One™</title>
+    <style>
+        html {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+        body {
+            background: #151515;
+            margin: 0;
+        }
+        .waiting {
+            /* width: 100%;
+           height: 100vh;
+           display: flex;
+           align-items:center;
+           justify-content:center; */
+            /* width: 100%; */
+            height: 100vh;
+            display: -webkit-flex;
+            display: flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            align-items: center;
+            /* justify-content: center; */
+            overflow: hidden;
+        }
+
+        @keyframes spinner {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        .trend_loader {
+            display: inline-block;
+            margin: 0 auto;
+            position: relative;
+            text-indent: -9999em;
+            vertical-align: top;
+            /* border: 2px solid rgba(255, 255, 255, 0.25);
+            border-left-color: #ffffff; */
+            border: 2px solid #1e5ede;
+            border-left-color: rgba(255, 255, 255, 0.12);
+            transform: translateZ(0);
+            animation: spinner 1s infinite linear;
+            border-radius: 50%;
+            width: 32px;
+            height: 32px;
+        }
+        .trend_loader_large {
+            width: 64px;
+            height: 64px;
+        }
+    </style>
+    <script nonce="Q0rtEp536WS9">
+        const isSafariBrowser =/Safari/.test(navigator.userAgent) && !/Chrome/.test(navigator.userAgent) && !/iPhone/.test(navigator.userAgent);
+        if (
+            !!window.ActiveXObject ||
+            "ActiveXObject" in window ||
+            isSafariBrowser
+        ) {
+            location.href = "./no_support.html";
+        }
+    </script>
+    <link href=https://download.xdr.trendmicro.com/js/highcharts/highcharts9.3.0.js rel=prefetch>
+    <link href=https://download.xdr.trendmicro.com/js/highcharts/highcharts9.3.0-more.js rel=prefetch>
+    <link href=https://download.xdr.trendmicro.com/js/highcharts/map9.3.0.js rel=prefetch>
+    <link href=https://download.xdr.trendmicro.com/js/highcharts/world9.3.0.js rel=prefetch>
+  <script type="module" crossorigin src="./assets/index-78b6ca8b.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/vendors-ec218529.js">
+  <link rel="stylesheet" href="./assets/index-ba9dfbc6.css">
+</head>
+
+<body>
+    <div id="RootContainer">
+        <div class="waiting">
+            <div class="trend_loader trend_loader_large"></div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
