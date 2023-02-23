@@ -7,6 +7,7 @@ import "./App.css";
 
 const About = lazy(() => import("./About"));
 const Table = lazy(() => import("./Table"));
+const Table2 = lazy(() => import("./Table2"));
 function NoMatch() {
     return (
         <div>
@@ -27,6 +28,9 @@ function Layout() {
                     <li>
                         <Link to="/">Tonic Table</Link>
                     </li>
+                    <li>
+                        <Link to="/table2">Tonic Table2</Link>
+                    </li>                    
                     <li>
                         <Link to="/about">Tonic Modal</Link>
                     </li>
@@ -68,15 +72,23 @@ export default function App() {
                     <Route
                         index
                         element={
-                            <React.Suspense fallback={<>...</>}>
+                            <React.Suspense fallback={<>loading...</>}>
                                 <Table />
                             </React.Suspense>
                         }
                     />
                     <Route
+                        path="table2"
+                        element={
+                            <React.Suspense fallback={<>loading...</>}>
+                                <Table2 />
+                            </React.Suspense>
+                        }
+                    />                    
+                    <Route
                         path="about"
                         element={
-                            <React.Suspense fallback={<>...</>}>
+                            <React.Suspense fallback={<>loading...</>}>
                                 <About />
                             </React.Suspense>
                         }

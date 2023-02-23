@@ -11,7 +11,7 @@ export default defineConfig({
         rollupOptions: {
             output: {
                 manualChunks: {
-                    vendors:['@tonic-ui/react','@tonic-ui/react-hooks','antd']
+                    vendors:['@tonic-ui/react','@tonic-ui/react-hooks','antd','react-table']
                     // if (id.includes("node_modules")) {
                     //     return id
                     //         .toString()
