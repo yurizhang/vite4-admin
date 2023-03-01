@@ -7,7 +7,7 @@ import {
 } from "@tonic-ui/react";
 
 import { ConfigProvider, theme } from 'antd';
-
+// import { StyleProvider } from '@ant-design/cssinjs';
 
 import { BrowserRouter } from "react-router-dom";
 import App from "./pages/App";
@@ -26,18 +26,11 @@ ReactDOM.createRoot(document.getElementById("RootContainer") as HTMLElement).ren
                 }}
                 useCSSBaseline={true} // If `true`, apply CSS reset and base styles
             >
-                <ConfigProvider
-                    theme={{
-                        algorithm: theme.darkAlgorithm,
-                        token: {
-                            colorPrimary: '#1e5ede',
-                          }
-                    }
-                    
-                }
-                >
-                    <App />
-                </ConfigProvider>
+                
+                    <ConfigProvider theme={{algorithm: theme.darkAlgorithm, token: {colorPrimary: '#1e5ede'}}}>
+                        <App />
+                    </ConfigProvider>
+                
             </TonicProvider>
         </BrowserRouter>
     </React.StrictMode>
