@@ -1,6 +1,7 @@
 import React, { lazy, useState } from "react";
 import { Button } from "@tonic-ui/react";
 import { Routes, Route, Outlet, Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 // import About from './About'
 // import Table from './Table'
 import "./App.css";
@@ -51,6 +52,7 @@ function Layout() {
     );
 }
 export default function App() {
+    const { t } = useTranslation();
     const [count, setCount] = useState(0);
     const btnClick = () => {
         setCount((count) => count + 1);
@@ -60,7 +62,7 @@ export default function App() {
         <div>
             <div className="card">
                 <Button variant="primary" onClick={btnClick}>
-                    新增加一个App({count})
+                {t('DEMO.D1')} ({count})
                 </Button>
             </div>
 

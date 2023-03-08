@@ -1,0 +1,14 @@
+{
+    "PUBLIC": {
+        "BUTTON_DELETE": "Delete",
+        "BUTTON_EDIT": "Edit",
+        "BUTTON_EXPORT": "Export",
+        "BUTTON_CANCEL": "Cancel",
+        "BUTTON_ADD": "Add",
+        "PREVIEW": "preview",
+        "NODATA": "No data to display"
+    },
+    "DEMO":{
+        "D1": "新增加一个Btn"
+    }
+}

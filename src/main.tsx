@@ -5,14 +5,13 @@ import {
     TonicProvider,
     colorStyle, // [optional] It's required only when you want to customize the color style
 } from "@tonic-ui/react";
-
 import { ConfigProvider, theme } from 'antd';
 // import { StyleProvider } from '@ant-design/cssinjs';
-
 import { BrowserRouter } from "react-router-dom";
+import './plugs/i18n'
 import App from "./pages/App";
 import "./assets/antd_reset.css";
-import "./index.css";
+import "./assets/common.css";
 
 ReactDOM.createRoot(document.getElementById("RootContainer") as HTMLElement).render(
     <React.StrictMode>

@@ -1,0 +1,709 @@
+{
+    "data": [
+        {
+            "icon": "site-map",
+            "iconType": "tm",
+            "title": "Security Posture",
+            "l10n": "APP.A14",
+            "l10n_collapsed": "APP.A14",
+            "pendo": "NAV_ICON_Site_Map",
+            "id": 604,
+            "pin": 1,
+            "sidebar":true,
+            "children": []
+        },
+        {
+            "icon": "dashboard",
+            "iconType": "tm",
+            "title": "Security Posture",
+            "l10n": "APP.A5",
+            "pin": 0,
+            "sidebar":true,
+            "l10n_collapsed": "APP.A5_1",
+            "pendo": "NAV_ICON_Security_Posture",
+            "id": "dashboard",
+            "children": [
+                {
+                    "title": "Executive Summary",
+                    "id": 8761,
+                    "pendo": "NAV_ICON_Identity_and_Executive_Summary",
+                    "l10n": "APP.A5_5",
+                    "preview": true,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "title": "Attack Surface Discovery",
+                    "id": 8762,
+                    "pendo": "NAV_ICON_Identity_and_Attack_Surface_Inventory",
+                    "l10n": "APP.A5_7",
+                    "preview": true,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "title": "Identity and Risk Insights",
+                    "id": 876,
+                    "pendo": "NAV_ICON_Identity_and_Risk_Insights",
+                    "l10n": "APP.A5_3",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "title": "Security Dashboard",
+                    "id": 1,
+                    "pendo": "NAV_ICON_Security_Dashboard",
+                    "l10n": "APP.A5_2",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "title": "Reports",
+                    "id": 874,
+                    "pendo": "NAV_ICON_Sase_Reports",
+                    "l10n": "APP.A5_6",
+                    "preview": true,
+                    "comesoon": false,
+                    "role": true
+                }
+            ]
+        },
+        {
+            "icon": "XDR",
+            "iconType": "tm",
+            "title": "XDR",
+            "l10n": "APP.A7",
+            "l10n_collapsed": "APP.A7_1",
+            "pendo": "NAV_ICON_XDR",
+            "id": "xdr_app",
+            "pin": 1,
+            "sidebar":true,
+            "children": [
+                {
+                    "title": "Detection Model Management",
+                    "id": 2,
+                    "pendo": "NAV_ICON_Detection_Model_Management",
+                    "l10n": "APP.A7_2",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "title": "Workbench",
+                    "id": 5,
+                    "pendo": "NAV_ICON_Workbench",
+                    "l10n": "APP.A7_3",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "iconType": "tm",
+                    "title": "Search",
+                    "id": 86,
+                    "l10n": "APP.A8",
+                    "pendo": "NAV_ICON_Search",
+                    "children": [],
+                    "role": true
+                },
+                {
+                    "title": "Observed Attack Techniques",
+                    "id": 871,
+                    "pendo": "NAV_ICON_Observed_Attack_Techniques",
+                    "l10n": "APP.A7_4",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "title": "Targeted Attack Detection",
+                    "id": 877,
+                    "pendo": "NAV_ICON_Targeted_Attack_Detection",
+                    "l10n": "APP.A6_2",
+                    "preview": true,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "title": "Forensics and Analysis",
+                    "id": 889,
+                    "pendo": "NAV_ICON_Forensics_and_Analysis",
+                    "l10n": "APP.A7_6",
+                    "preview": true,
+                    "comesoon": false,
+                    "role": true
+                },                
+                {
+                    "title": "Managed XDR",
+                    "id": 84,
+                    "pendo": "NAV_ICON_Managed_XDR",
+                    "l10n": "APP.A7_5",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                }
+            ]
+        },
+        {
+            "icon": "ti_app",
+            "iconType": "tm",
+            "title": "Threat Intelligence",
+            "l10n": "APP.A1",
+            "l10n_collapsed": "APP.A1_1",
+            "pendo": "NAV_ICON_Threat_Intelligence",
+            "id": "ti_app",
+            "pin": 1,
+            "sidebar":true,
+            "children": [
+                {
+                    "title": "Intelligence Insights",
+                    "id": 30,
+                    "pendo": "NAV_ICON_Campaign_View",
+                    "l10n": "APP.A1_8",
+                    "preview": true,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "title": "Intelligence Reports",
+                    "id": 32,
+                    "pendo": "NAV_ICON_Intelligence_Reports",
+                    "l10n": "APP.A1_2",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": false
+                },
+                {
+                    "title": "Suspicious Object Management",
+                    "id": 31,
+                    "pendo": "NAV_ICON_Suspicious_Object_Management",
+                    "l10n": "APP.A1_4",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "title": "Sandbox Analysis",
+                    "id": 33,
+                    "pendo": "NAV_ICON_Sandbox_Analysis",
+                    "l10n": "APP.A1_5",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "divider": true
+                },
+                {
+                    "title": "Third-Party Intelligence",
+                    "l10n": "APP.A1_6",
+                    "id": 80000,
+                    "preview": true,
+                    "role": true,
+                    "children": [
+                        {
+                            "title": "TAXII Feeds",
+                            "id": 80001,
+                            "pendo": "NAV_ICON_TAXII_Feeds",
+                            "l10n": "APP.A1_3",
+                            "preview": false,
+                            "comesoon": false,
+                            "role": true
+                        },
+                        {
+                            "title": "MISP",
+                            "id": 80002,
+                            "pendo": "NAV_ICON_MISP",
+                            "l10n": "APP.A1_7",
+                            "preview": false,
+                            "comesoon": false,
+                            "role": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "icon": "playbooks",
+            "iconType": "tm",
+            "title": "Workflow and Automation",
+            "l10n": "APP.A15",
+            "l10n_collapsed": "APP.A15_1",
+            "pendo": "NAV_Workflow_and_Automation",
+            "id": "workflow_and_automation",
+            "pin": 1,
+            "sidebar":true,
+            "children": [
+                {
+                    "icon": "response",
+                    "iconType": "tm",
+                    "title": "Response Management",
+                    "l10n": "APP.A9",
+                    "pendo": "NAV_ICON_Response_Management",
+                    "id": 83,
+                    "children": [],
+                    "role": true
+                },
+                {
+                    "iconType": "tm",
+                    "title": "Security Playbooks",
+                    "l10n": "APP.A12",
+                    "pendo": "NAV_ICON_Security_Playbooks",
+                    "id": 885,
+                    "preview": true,
+                    "children": [],
+                    "role": true
+                },
+                {
+                    "title": "Third-party Integration",
+                    "id": 603,
+                    "pendo": "NAV_ICON_Third_party_Integration",
+                    "l10n": "APP.A4_6",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "title": "API Integration",
+                    "id": 74,
+                    "pendo": "NAV_ICON_API_Integration",
+                    "l10n": "APP.A4_13",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "title": "Service Gateway Inventory",
+                    "id": 878,
+                    "pendo": "NAV_ICON_Service_Gateway_Inventory",
+                    "l10n": "APP.A3_5",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "title": "Service Gateway Inventory2",
+                    "id": 880,
+                    "pendo": "NAV_ICON_Service_Gateway_Inventory2",
+                    "l10n": "APP.A3_5",
+                    "preview": true,
+                    "comesoon": false,
+                    "role": true
+                }
+            ]
+        },
+        {
+            "icon": "zero-trust",
+            "iconType": "tm",
+            "title": "Zero Trust Secure Access",
+            "l10n": "APP.A10",
+            "l10n_collapsed": "APP.A10_1",
+            "pendo": "NAV_ICON_Zero_Trust_Secure_Access",
+            "id": "zero-trust",
+            "pin": 2,
+            "sidebar":true,
+            "children": [
+                {
+                    "title": "Secure Access Overview",
+                    "id": 801,
+                    "pendo": "NAV_ICON_Secure_Access_Overview",
+                    "l10n": "APP.A10_2",
+                    "preview": true,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "divider": true
+                },
+                {
+                    "title": "Secure Access Rules",
+                    "id": 802,
+                    "pendo": "NAV_ICON_Secure_Access_Rules",
+                    "l10n": "APP.A10_3",
+                    "preview": true,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "title": "Rule Objects",
+                    "id": 806,
+                    "pendo": "NAV_ICON_Rule_Objects",
+                    "l10n": "APP.A10_7",
+                    "preview": true,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "divider": true
+                },
+                {
+                    "title": "Rule Enforcement Logs",
+                    "id": 803,
+                    "pendo": "NAV_ICON_Rule_Enforcement_Logs",
+                    "l10n": "APP.A10_4",
+                    "preview": true,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "title": "Secure Access Configuration",
+                    "id": "zero-trust-config",
+                    "l10n": "APP.A10_11",
+                    "preview": true,
+                    "role": true,
+                    "children": [
+                        {
+                            "title": "Ingress Connection",
+                            "id": 804,
+                            "pendo": "NAV_ICON_Ingress_Connection",
+                            "l10n": "APP.A10_5",
+                            "preview": true,
+                            "comesoon": false,
+                            "role": true
+                        },
+                        {
+                            "title": "Internet Access Configuration",
+                            "id": 805,
+                            "pendo": "NAV_ICON_Internet_Access_Configuration",
+                            "l10n": "APP.A10_6",
+                            "preview": true,
+                            "comesoon": false,
+                            "role": false
+                        },
+                        {
+                            "title": "Identity and Access Management",
+                            "id": 808,
+                            "pendo": "NAV_ICON_Identity_and_Access_Management",
+                            "l10n": "APP.A10_8",
+                            "preview": true,
+                            "comesoon": false,
+                            "role": true
+                        },
+                        {
+                            "title": "Secure Access Module",
+                            "id": 809,
+                            "pendo": "NAV_ICON_Secure_Access_Module",
+                            "l10n": "APP.A10_9",
+                            "preview": true,
+                            "comesoon": false,
+                            "role": true
+                        },
+                        {
+                            "title": "Customization Settings",
+                            "id": 807,
+                            "pendo": "NAV_ICON_Customization_Settings",
+                            "l10n": "APP.A10_10",
+                            "preview": true,
+                            "comesoon": false,
+                            "role": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "icon": "asm_app",
+            "iconType": "tm",
+            "title": "Assessment",
+            "l10n": "APP.A6",
+            "l10n_collapsed": "APP.A6_1",
+            "pendo": "NAV_ICON_Assessment",
+            "id": "asm_app",
+            "pin": 2,
+            "sidebar":true,
+            "children": [
+                {
+                    "title": "Security Assessment",
+                    "id": 879,
+                    "pendo": "NAV_ICON_Security_Assessment",
+                    "l10n": "APP.A6_3",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                }
+            ]
+        },
+        {
+            "icon": "end-policy",
+            "iconType": "tm",
+            "title": "Endpoint Security Operations",
+            "l10n": "APP.A16",
+            "l10n_collapsed": "APP.A16_1",
+            "pendo": "NAV_ICON_Endpoint_Security_Operations",
+            "id": "endpoint_security_operations",
+            "pin": 1,
+            "role":true,
+            "children": [
+                {
+                    "title": "Trend Micro Cloud One - Endpoint & Workload Security",
+                    "id": 8751,
+                    "pendo": "NAV_ICON_Cloud_One_Workload_Security",
+                    "l10n": "APP.A3_7",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "title": "Endpoint Inventory",
+                    "id": 85,
+                    "pendo": "NAV_ICON_Endpoint_Inventory",
+                    "l10n": "APP.A3_2",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "title": "Endpoint",
+                    "id": 1101,
+                    "pendo": "NAV_ICON_Endpoint",
+                    "l10n": "APP.A11_2",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                }
+            ]
+        },
+        {
+            "icon": "network-ips",
+            "iconType": "tm",
+            "title": "Network Security Operations",
+            "l10n": "APP.A11",
+            "l10n_collapsed": "APP.A11_1",
+            "pendo": "NAV_ICON_Network_Security_Operations",
+            "id": "network_security_operations",
+            "pin": 1,
+            "sidebar":true,
+            "children": [
+                {
+                    "iconType": "tm",
+                    "title": "Network Intrusion Prevention",
+                    "id": 887,
+                    "l10n": "APP.A13",
+                    "preview": true,
+                    "pendo": "NAV_ICON_Network_IPS_Management",
+                    "children": [],
+                    "role": true
+                },
+                {
+                    "title": "Network Inventory",
+                    "id": 875,
+                    "pendo": "NAV_ICON_Network_Inventory",
+                    "l10n": "APP.A3_4",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                }
+            ]
+        },
+        {
+            "icon": "email_security_operations",
+            "iconType": "tm",
+            "title": "Email Security Operations",
+            "l10n": "APP.A3",
+            "l10n_collapsed": "APP.A3_1",
+            "pendo": "NAV_ICON_Email_Security_Operations",
+            "id": "email_security_operations",
+            "pin": 1,
+            "sidebar":true,
+            "children": [
+                {
+                    "title": "Email Account Inventory",
+                    "id": 8723,
+                    "pendo": "NAV_ICON_Email_Account_Inventory",
+                    "l10n": "APP.A3_3",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "title": "Trend Micro Cloud App Security",
+                    "id": 8724,
+                    "pendo": "NAV_ICON_Cloud_App_Security",
+                    "l10n": "APP.A3_6",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                }                
+            ]
+        },
+        {
+            "icon": "mobile-mdm",
+            "iconType": "tm",
+            "title": "Mobile Security",
+            "l10n": "APP.A2",
+            "l10n_collapsed": "APP.A2_1",
+            "pendo": "NAV_ICON_Mobile_Security",
+            "id": "mobile_mdm",
+            "pin": 1,
+            "sidebar":true,
+            "children": [
+                {
+                    "title": "Mobile Inventory",
+                    "id": 8701,
+                    "pendo": "NAV_ICON_Mobile_Inventory",
+                    "l10n": "APP.A2_3",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "title": "Mobile Detection Logs",
+                    "id": 8702,
+                    "pendo": "NAV_ICON_Mobile_Detection_Logs",
+                    "l10n": "APP.A2_4",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "title": "Mobile Policy",
+                    "id": 8703,
+                    "pendo": "NAV_ICON_Mobile_Policy",
+                    "l10n": "APP.A2_5",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "title": "Suspicious Apps",
+                    "id": 8706,
+                    "pendo": "NAV_ICON_Suspicious_App",
+                    "l10n": "APP.A2_6",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                }
+            ]
+        },
+        {
+            "icon": "prouct_connect",
+            "iconType": "tm",
+            "title": "Point Product Connection",
+            "l10n": "APP.A17",
+            "l10n_collapsed": "APP.A17_1",
+            "pendo": "NAV_ICON_Point_Product_Connection",
+            "id": "point_product_connection",
+            "pin": 1,
+            "sidebar":true,
+            "children": [
+                {
+                    "title": "Product Connector",
+                    "id": 65,
+                    "pendo": "NAV_ICON_Product_Connector",
+                    "l10n": "APP.A4_5",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                }
+            ]
+        },
+        {
+            "icon": "setting",
+            "iconType": "tm",
+            "title": "Administration",
+            "l10n": "APP.A4",
+            "l10n_collapsed": "APP.A4_1",
+            "pendo": "NAV_ICON_Administration",
+            "id": "setting",
+            "pin": 1,
+            "sidebar":true,
+            "children": [
+                {
+                    "title": "Single Sign-On",
+                    "id": 8730,
+                    "pendo": "NAV_ICON_SSO",
+                    "l10n": "APP.A4_2",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "title": "User Accounts",
+                    "id": 8731,
+                    "pendo": "NAV_ICON_Email_User_Accounts",
+                    "l10n": "APP.A4_3",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "title": "User Roles",
+                    "id": 8732,
+                    "pendo": "NAV_ICON_User_Roles",
+                    "l10n": "APP.A4_4",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "divider": true
+                },
+                {
+                    "title": "Alert Notifications",
+                    "id": 66,
+                    "pendo": "NAV_ICON_Alert_Notifications",
+                    "l10n": "APP.A4_7",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "divider": true
+                },
+                {
+                    "title": "Audit Logs",
+                    "id": 601,
+                    "pendo": "NAV_ICON_Audit_Logs",
+                    "l10n": "APP.A4_8",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "title": "Console Settings",
+                    "id": 67,
+                    "pendo": "NAV_ICON_Console_Settings",
+                    "l10n": "APP.A4_12",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "divider": true
+                },
+                {
+                    "title": "License Information",
+                    "id": 8733,
+                    "pendo": "NAV_ICON_Service_License_Information",
+                    "l10n": "APP.A4_10",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "title": "Credit Usage",
+                    "id": 8736,
+                    "pendo": "NAV_ICON_Credit_Usage_Report",
+                    "l10n": "APP.A4_11",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                },
+                {
+                    "divider": true
+                },
+                {
+                    "title": "Remote Support",
+                    "id": 602,
+                    "pendo": "NAV_ICON_Remote_Support",
+                    "l10n": "APP.A4_9",
+                    "preview": false,
+                    "comesoon": false,
+                    "role": true
+                }
+            ]
+        }
+    ]
+}

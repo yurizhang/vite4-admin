@@ -2,7 +2,7 @@
   "name": "v1-portal-2023",
   "private": true,
   "version": "1.0.0",
-  "type": "module",
+  "_type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -11,17 +11,23 @@
   "dependencies": {
     "@tonic-ui/react": "^1.10.5",
     "antd": "^5.2.2",
+    "i18next": "^22.4.11",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^12.2.0",
     "react-router-dom": "^6.8.1",
     "react-table": "^7.8.0"
   },
   "devDependencies": {
+    "@types/node": "^18.14.6",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "@types/react-table": "^7.7.14",
     "@vitejs/plugin-react": "^3.1.0",
+    "compression": "^1.7.4",
+    "express": "^4.18.2",
     "typescript": "^4.9.3",
-    "vite": "^4.1.0"
+    "vite": "^4.1.0",
+    "vite-plugin-compression": "^0.5.1"
   }
 }

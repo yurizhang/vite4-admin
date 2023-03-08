@@ -1,0 +1,11 @@
+{
+    "PUBLIC": {
+        "BUTTON_DELETE": "削除",
+        "BUTTON_EDIT": "編集",
+        "BUTTON_EXPORT": "エクスポート",
+        "BUTTON_CANCEL": "キャンセル",
+        "BUTTON_ADD": "追加",
+        "PREVIEW": "プレビュー",
+        "NODATA": "表示するデータがありません"
+    }
+}
